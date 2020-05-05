@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="sound"
+        android:defaultValue="true"
+        android:title="Sound"
+        android:summaryOn="Shown"
+        android:summaryOff="Hidden"
+        ></CheckBoxPreference>
+    <ListPreference
+        android:key="choosecolor"
+        android:title="Choose color"
+        android:entries="@array/color_entry"
+        android:entryValues="@array/color_entry_value"
+        android:defaultValue="red"
+        />
+    <EditTextPreference
+        android:key="choose name"
+        android:defaultValue="0"
+        android:title="choose name"
+        />
+
+</PreferenceScreen>
